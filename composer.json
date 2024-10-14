@@ -1,0 +1,21 @@
+{
+  "name": "black-ice-wizard/c-problems-inliner",
+  "description": "Inliner of problem solutions written on C language",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Vladimir Cheskidov",
+      "email": "black.ice.wizard@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4 <8.0",
+    "myclabs/php-enum": "^1.8"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Inliner\\": "src/"
+    }
+  }
+}
